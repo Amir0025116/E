@@ -94,7 +94,9 @@
         margin: 0 auto;
         padding: 22px 10px;
     }
-
+.header::before{
+    display:none;
+}
     .prev:before {
         position: absolute;
         content: '';
